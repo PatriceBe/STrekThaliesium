@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Site StrekThalesium</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+</head>
+<body>
+    <h1>Bienvenue sur StrekThalesium !</h1>
+    <p>Voir <a href="classic-ultra.html">classic-ultra</a>.</p>
+</body>
+</html>
