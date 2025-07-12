@@ -1,12 +1,32 @@
 body {
-    background: #000;
-    color: #ff0;
-    font-family: 'Courier New', monospace;
+    background: #000000; /* Fond noir comme un écran de vaisseau */
+    color: #ffcc00; /* Texte orange caractéristique */
+    font-family: 'Courier New', monospace; /* Police rétro-futuriste */
+    margin: 0;
+    padding: 20px;
 }
 .screen-top, .data-section, .main-content, footer {
-    padding: 10px;
-    border: 2px solid #ff0;
+    border: 3px solid #ffcc00; /* Bordures orange */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #222222; /* Fond sombre pour les sections */
 }
-h1, h2 { color: #f00; }
-ul { list-style: none; }
-.meta-data { text-align: center; }
+h1, h2 {
+    color: #ff4500; /* Rouge orangé pour les titres */
+    text-transform: uppercase;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    margin: 5px 0;
+    padding-left: 10px;
+    border-left: 5px solid #ffcc00; /* Ligne verticale LCARS */
+}
+.meta-data {
+    text-align: center;
+    font-size: 0.8em;
+    color: #cccccc; /* Gris clair pour le footer */
+}
